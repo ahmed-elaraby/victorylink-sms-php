@@ -1,0 +1,22 @@
+{
+    "name": "ahmed-elaraby/victorylink-php",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmed El-Araby",
+            "email": "araby2305@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ITeam\\VictoryLink\\": "src"
+        }
+    }
+}
